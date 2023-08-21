@@ -1,0 +1,44 @@
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: black;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 500%;
+  }
+      /* это другое */
+  .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; 
+    overflow: hidden;
+    cursor: ew-resize;
+    white-space: nowrap;
+  }
+  
+  .title {
+    font: bold normal 3vw/1.5 "Montserrat", sans-serif;
+    position: relative;
+    color: aliceblue;
+    display: inline-block;
+    margin: 0;
+    padding: 0 15%;
+    will-change: transform;
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+  
